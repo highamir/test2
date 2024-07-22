@@ -48,7 +48,7 @@ export default function Navbar() {
           {token ? (
             <Link onClick={() => dispatch(logout())}>Logout</Link>
           ) : (
-            <Link to={"/auth"}>Sign in</Link>
+            <Link to={"/auth"}>SignIn</Link>
           )}
        
         </Stack>
